@@ -1,0 +1,434 @@
+/*
+author: uzma surwat
+email: usurwat@gmail.com
+*/
+
+/*
+index...
+1.  header
+    a. top-head 
+        1. menu-lft
+        2. menu-mid
+        3. menu-rgt
+    1. menu-lft
+        2. menu-mid
+        3. menu-rgtb. end-head
+        1. logo img
+        2. formset
+            a. one | b. two | c. three
+2.  
+        a. section verse
+            h3
+            ul: font awesome, h3
+        b. 
+        c. 
+*/
+
+/*Global css*/
+*{ margin: 0;
+padding: 0;
+} 
+
+/*theme css*/
+    /*header*/
+
+/*top-head*/
+
+.top-head{
+    background: #066839;
+    width: 100%;
+    height: 50px;
+    padding: 0 10px;
+    }
+.menu-lft ul li{
+    float: left;
+    list-style-type: none;
+     color: #ffffff;
+    font-size: 15px;
+}
+
+.menu-lft ul li a{
+    text-decoration: none;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #ffffff;
+}
+.menu-mid ul li{
+    float: left;
+    list-style-type: none;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.menu-mid ul li a{
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #ffffff;
+}
+.menu-rgt ul li{
+    float: left;
+    list-style-type: none;
+    padding-left: 4px;    
+    font-size: 12px;
+    color: #ffffff;
+}
+.menu-rgt ul li a{    
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 200;
+    color: #ffffff;
+    text-align: center;
+}
+
+.menu-rgt .lang select{
+    background: transparent;
+    color: #fff;
+    width: 65px;
+}
+
+/*end-head*/
+
+.end-head{
+    background: #ffffff;
+    width: 100%;
+    height: 80px;
+    margin: 40px 0;
+    
+}
+.end-head .logo img{
+    float: left;
+    width: 110px;
+    height: 90px;
+}
+.formset{
+    border: 2px solid #066839;
+    height: 50px;
+    padding: 5px 10px;
+    margin: 20px 0;
+}
+.formset ul li{
+    float: left;
+    list-style-type: none;
+    margin: 5px 2px;;
+    }
+
+.formset .one, .formset .two, select{
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-weight: 300;
+    text-align: left;    
+    width: 120px;
+    color: darkgreen;
+    border: 0;
+}
+
+.formset .three .form-control{
+    width: 180px;
+    color: #066839;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-weight: 200;
+    text-align: left; 
+    border: 0;
+    padding: 10px 5px;
+    position: relative;
+}
+.formset .three .submit-btn{
+    width: 200px;
+    background: #066839;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    text-align: center; 
+    border: 0;
+    padding: 12px 40px;
+    position: absolute;
+    right: 1.8%;
+    bottom: 25%;
+}
+.btn-info{
+    background: #066839;
+    color: #ffffff;
+    height: 50px;
+    padding: 5px 30px;
+    margin: 20px 0;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 500;
+    text-align: center; 
+    border: 0;
+}
+
+hr{
+  color: #066839;
+    width: 100%;
+    height: 4px solid;
+}
+
+/***section verse-box***/
+.verse{
+    width: 100%;
+    height: 120px;
+    background: #edfdf5;
+    border: 2px solid #066839;
+    padding: 10px;
+    margin: 40px 0;
+}
+.verse h3{
+    color: #066839;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    text-decoration: none;
+    text-transform: capitalize;   
+    padding: 2px 0;
+}
+.verse-cntnt .verse-icon, .verse-cntnt .verse-text{
+    float: left;
+    list-style-type: none;
+}
+.verse-icon{
+    width:  10%;
+    height: auto;    
+}
+.verse-icon .fa{
+    font-size: 60px;
+    text-align: justify;
+    color: #066839;
+}
+.verse-text{
+    width:  90%;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: left;
+    text-decoration: none;
+    text-transform: capitalize;    
+}
+
+/***section mosque-count***/
+
+.mosque-count .row{
+    background: #066839;
+    width: 500px;
+    height: 50px;
+    background-position: left;
+    margin: 40px 0;
+    
+    }
+.row .icon, .row .cntnt{
+    float: left;
+    list-style-type: none;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 8px 5px;
+}
+.row .icon .fa{
+    font-size: 30px;
+    color: #ffffff;
+}
+
+
+/***section mosque-dir***/
+
+.mosque-dir, {
+    margin: 40px 0;
+    width: 100%;
+    }
+.mosque-dir ul li{
+    float: left;
+    list-style-type: none;
+    margin: 6px 4px;
+    border-bottom-style:outset;
+    border-radius: 25px 0;
+    text-align: center;
+    font-weight: 600;
+}
+.mosque-dir ul li h6{
+    padding: 20px 45px;    
+    color: #fff;
+    background: #066839;
+}
+.mosque-dir ul li a{
+    padding-bottom: 30px;    
+    color: #066839;
+}
+/***section banner-first***/
+.banner-first{
+    margin: 40px 0;
+    width: 100%;
+    background: #066839;
+    padding: 80px 0;
+    }
+.banner-first .col-md-4 img{
+    width: 350px;
+    height: 350px;
+    margin-bottom: 40px;
+}
+.banner-first .col-md-4 ul li{
+    list-style-type: none;
+    color: #fff;
+    text-align: left;
+}
+
+.banner-first .col-md-4 ul li h3{
+    font-size: 21px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.banner-first .col-md-4 ul li h6{
+    font-size: 15px;    
+}
+.banner-first form{
+    float: left;
+}
+.banner-first form select{
+    background: #066839;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    padding-bottom: 10px;
+    
+}
+.banner-first button{
+    background: #edfdf5;
+    color: #066839;
+    width: 100%;
+    padding: 5px 0;
+    font-size: 30px;
+    font-weight: 800;
+    border-radius: 25px 0;
+    border: 0;
+}
+
+
+/******section list-heading******/
+
+.list-heading{
+    margin: 40px 0;    
+}
+.list-heading h3{
+    background: #066839;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    padding: 10px 25px;
+}
+
+/******section list******/
+.list{
+    
+    width: 100%;
+    }
+.list ul li{
+    float: left;
+    list-style-type: none;
+    margin: 0 2px;
+    border: 2px solid #066839;
+    background: #edfdf5;    
+    font-weight: 600;
+    padding: 20px 0;
+}
+.list ul li h4{
+    text-align: center;
+    background: #066839;
+    color: #fff;
+    padding: 20px 20px;
+}
+.list ul li h6 a{
+    text-align: justify;
+    color: #066839;    
+    padding: 20px 30px;
+}
+/**********************Section Salah**********************/
+.Salah{
+    margin: 40px 0;    
+}
+.Salah h3{
+    background: #066839;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    padding: 10px 25px;
+}
+/***************************section Namaz-time-search***************************/
+.Namaz-time-search{
+     margin: 40px 0;
+}
+
+.Namaz-time-search form{    
+    height: 50px;
+    padding: 4px 5px;      
+}
+.Namaz-time-search form .form-control{
+    background: #edfdf5;
+    color: #066839;
+    font-size: 15px;
+    font-weight: 200;
+    text-transform: lowercase;
+    padding: 10px 45px;
+    border-radius: 25px;
+    border: 2px solid #066839;
+    position: relative;
+}
+.Namaz-time-search form .submit-btn{
+    background: #066839;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 6px 45px;    
+    border-radius: 25px;
+    position: absolute;
+    right: 1.8%;
+    bottom: 20%;
+}
+/******************************section Namaz-time******************************/
+
+.Namaz-time{
+    margin: 40px 0;
+}
+.Namaz-time .row ul li{
+    float: left;
+    list-style-type: none;    
+    padding: 15px 15px;    
+    border-radius: 5px;
+    background-position: center center;
+    margin-left: 1px;
+    background: #066839;
+}
+.Namaz-time .row ul li a{
+    background: #edfdf5;
+    color: #066839;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 12px;
+    margin: 0 2px;    
+    text-decoration: none;   
+}
+/**********************************section c**********************************/
+.end-bnr-cover{
+    margin: 10px 0;
+    background: #066839;
+    height: 600px;
+    }
+.end-bnr-cover img{
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+     background-position: center;
+}
